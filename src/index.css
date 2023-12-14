@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Kalnia:wght@200&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .button-cyan-fill {
+    @apply text-white px-6 py-2 rounded-full text-xl ring ring-2 space-x-8 ring-cyan-500 hover:bg-cyan-500 hover:shadow-xl
+  }
+
+  .button-cyan-outline {
+    @apply text-white px-6 py-2 rounded-full text-xl ring ring-2 space-x-8 ring-cyan-500 hover:bg-cyan-500 hover:shadow-xl
+  }
+
+  .button-purple-outline {
+    @apply text-white px-6 py-2 rounded-full text-xl space-x-8 ring ring-2 bg-purple-500 hover:ring-cyan-500 
+  }
+
+}
