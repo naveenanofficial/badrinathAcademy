@@ -13,9 +13,7 @@ export default function App() {
 
   return (
    <div className="flex flex-col justify-between min-h-screen">
-   {
-      sessionStorage.getItem("loggedUser") !== null && <NavBar/>
-    }
+    <NavBar/>
     <main className="grow justify-between">
       <Routes>
         <Route path="/" element={<Dashboard/>}/>

@@ -1,7 +1,7 @@
 import { study1 } from "../assets/images"
 
 const Home = () => {
-    const {username, email, password, confirmpassword} = JSON.parse(sessionStorage.getItem("loggedUser"))
+    const {username, email, password} = JSON.parse(sessionStorage.getItem("loggedUser"))
 
     return (
     <section className="flex flex-row justify-between bg-teal-500">
